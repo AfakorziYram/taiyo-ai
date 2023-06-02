@@ -27,7 +27,7 @@ const LeftSidebar = () => {
 						<XMarkIcon className='h-5 inline-block w-5' />
 					</button>
 					<li className='mb-2 font-semibold text-xl'>
-						<Link to={'/app/contacts'}>
+						<Link to={'/'}>
 							<img
 								className='mask mask-squircle w-10'
 								src='/logo192.png'
@@ -40,11 +40,11 @@ const LeftSidebar = () => {
 					<li className=''>
 						<NavLink
 							end
-							to={'/app/contacts' as To}
+							to={'/' as To}
 							className={({ isActive }) => `${isActive ? 'font-semibold  bg-base-200 ' : 'font-normal'}`}
 						>
 							<QueueListIcon className={iconClasses} /> {'Contacts'}
-							{location.pathname === '/app/dashboard' ? (
+							{location.pathname === '/' ? (
 								<span
 									className='absolute inset-y-0 left-0 w-1 rounded-tr-md rounded-br-md bg-primary '
 									aria-hidden='true'
@@ -55,7 +55,7 @@ const LeftSidebar = () => {
 					<li className=''>
 						<NavLink
 							end
-							to={'/app/charts-and-maps' as To}
+							to={'/charts-and-maps' as To}
 							className={({ isActive }) => `${isActive ? 'font-semibold  bg-base-200 ' : 'font-normal'}`}
 						>
 							<MapPinIcon className={iconClasses} /> {'Charts and Maps'}

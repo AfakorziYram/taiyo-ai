@@ -4,7 +4,7 @@ import ChartsAndMaps from '../features/charts_and_maps/ChartsAndMaps';
 
 const routes = [
 	{
-		path: '/contacts', // the url
+		path: '/', // the url
 		component: Contact, // view rendered
 	},
 	{

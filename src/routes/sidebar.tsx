@@ -6,7 +6,7 @@ interface RoutesInterface {
 
 const routes: RoutesInterface[] = [
 	{
-		path: '/app/dashboard',
+		path: '/',
 		name: 'Contacts',
 		icon: 'Squares2X2Icon',
 	},

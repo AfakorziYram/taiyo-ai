@@ -13,7 +13,7 @@ function App() {
 				<Routes>
 					{/* Place new routes over this */}
 					<Route
-						path='/app/*'
+						path='/*'
 						element={
 							<>
 								<div className='drawer drawer-mobile'>
